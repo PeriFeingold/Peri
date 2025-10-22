@@ -1,0 +1,81 @@
+def say_goodbye(name):
+    print("Goodbye,", name)
+say_goodbye("Peri")
+
+def print_circle_area(radius):
+    # using 3.14 for pi
+    pi = 3.14
+    area = pi * radius ** 2 
+    print("the area of the circe is:", area)
+print_circle_area(5)
+
+def subtract(a,b):
+   (print(a-b))
+c = subtract(a=6, b=7)
+
+def multiply(a,b):
+    (print(a*b))
+c = multiply(a=3, b=5)
+
+def divide(a,b):
+    (print(a/b))
+c = divide(a=24, b=6)
+
+def weather_readings(readings):
+    min_temp = min(readings)
+    max_temp = max(readings)
+    return(min_temp,max_temp)
+readings = [76, 77, 75, 73, 70, 67]
+tempurature_today = weather_readings(readings)
+print("tempurate range for today", tempurature_today)
+
+def is_weekend(day):
+    if day == "6" or day == "7":
+        return "true"
+    elif  day == "1" or day == "2" or day == "3" or day == "4" or day == "5":
+        return "false"
+print(is_weekend("7"))
+
+def miles_per_gallon(a,b): 
+    print(a/b)
+c = miles_per_gallon(a=42, b=60)
+
+def encrypt_number(num):
+    if num < 10:
+        return num
+    last_digit = num % 10
+    remaining = num // 10
+
+    num_digits = len(str(remaining)) #what does this mean
+
+    encrypted = last_digit * (10 ** num_digits) + remaining
+    return encrypted
+print(encrypt_number(12345))
+
+
+def oski_power(x,y):
+    result = 1
+    for _ in range(y):
+        result *=x
+    return(result)
+print(oski_power(2,3))
+#I need this whole thing explained to me
+
+def minimum_value(nums):
+    minimum_values = nums[0]
+    for num in nums:
+        if num < minimum_values:
+            minimum_values = num
+    return minimum_values
+numbers = [3, 5, 6, 9, 2, 7]
+print(minimum_value(numbers))
+
+def maximum_value(nums):
+    maximum_values= nums[0]
+    for num in nums:
+        if num > maximum_values:
+            maximum_values = num
+    return maximum_values
+numbers = [3, 5, 6, 9, 2, 7]
+print(maximum_value(numbers))
+

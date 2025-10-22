@@ -1,0 +1,12 @@
+1. exoplanets, binary star systems, black holes, stars, electric fields
+
+2. a) exoplanets
+	- I looked at NASA exoplanet archive which has an interactive table of planetary systems composite data. This relates to the topic because it has every detail of all the exoplanets discovered. It also included the method of discovery. 
+   b) binary stars
+	- I looked at binarystars.lowell.edu and this is a database with data of young, multiple star systems. I can relate this to my project by plotting the data and comparing the seperation to the masses of the stars or orbital period.
+   c) Types of stars
+	- I looked at NASA's bright star catalog and this would be useful for my project if choose to compare the distances and/or luminosities across spectral classes. 
+3. For exoplanets, I could use loops to filter through information, and I could also use lists/dictionaries to compile data and make tables. I can also us pandas or numpys to graph my data. 
+
+4. My dream project idea would be to meausre spectral data from the a planetary system and make a graph of the dips in brightness of the star to show when a planet moved infront of it. A simpler project idea would be to make a table comparing details of multiple exoplanets orbiting a single star and compare how their semimajor axes compare to their mass and temperature
+ 
